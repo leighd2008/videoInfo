@@ -11,6 +11,7 @@ app.on('ready', () => {
       contextIsolation: false,
     }
   });
+  
   mainWindow.loadURL(`file://${__dirname}/index.html`);
 });
 
